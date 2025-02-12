@@ -2,7 +2,8 @@ class Mascota:
     def __init__(self, raza, nombre):
         self.raza = raza
         self.nombre = nombre
-        
+   
+    #Métodos    
     def tipo(self):
         return f"La raza de mascota es {self.raza} y se llama {self.nombre}."
     
@@ -11,6 +12,8 @@ class Mascota:
 
 print("Ingrese a la persona")
 dueño = input()
+
+#Objeto
 mascota1 = Mascota("Pug", "Kiki")
 mensaje2, mensaje1 = mascota1.tipo(), mascota1.dueño()
 print(mensaje1, mensaje2)

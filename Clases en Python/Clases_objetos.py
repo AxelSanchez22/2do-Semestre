@@ -24,12 +24,12 @@ print(persona1.nombre)
 #Creación de una clase
 class Persona:
     #Constructor
-    def __init__ (self, nombre):
-        self.nombre = nombre
+    def __init__ (self, nombre1):
+        self.nombre1 = nombre1
 
 #Creación de objeto1
 persona1 = Persona("Axel")
 print(persona1.nombre)
 
 persona2 = Persona("Moi")
-print(persona2.nombre)
+print(persona2.nombre1)

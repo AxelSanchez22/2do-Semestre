@@ -3,18 +3,15 @@ class Mascota:
     def __init__ (self, mascota, raza, nombre):
         self.mascota = mascota
         self.raza = raza
-        self.nombre = nombre
-        
-print("|Mascotas de los alumnos    |")
-print("|---------------------------|")
+        self.nombre = nombre     
 #Objeto 1
-mascotaAxel = Mascota("|Perro |", "|Pug   |", "|Perruno  |")
-print(mascotaAxel.mascota, mascotaAxel.raza, mascotaAxel.nombre)
+mascotaAxel = Mascota("Perro", "Pug", "Perruno")
+print(mascotaAxel.mascota, mascotaAxel.raza, mascotaAxel.nombre)   
 #Objeto 2
-mascotaPedro = Mascota("|Gato  |", "|Siames|", "|Gatuvelo |")
+mascotaPedro = Mascota("Gato", "Siames", "Gatuvelo")
 print(mascotaPedro.mascota, mascotaPedro.raza, mascotaPedro.nombre)
 #Objeto 3
-mascotaJuan = Mascota("|Conejo|", "|Feo   |", "|Zanahoria|")
+mascotaJuan = Mascota("Conejo", "Feo", "Zanahoria")
 print(mascotaJuan.mascota, mascotaJuan.raza, mascotaJuan.nombre)
 print("                         ")
 print("                         ")
