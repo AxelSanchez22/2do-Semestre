@@ -17,3 +17,10 @@ dueño = input()
 mascota1 = Mascota("Pug", "Kiki")
 mensaje2, mensaje1 = mascota1.tipo(), mascota1.dueño()
 print(mensaje1, mensaje2)
+
+class Ropa:
+    def __init__(self, talla):
+        self.talla = talla
+
+ropa1 = Ropa("vestido")
+print(ropa1.talla)
